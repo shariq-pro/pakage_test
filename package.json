@@ -1,0 +1,11 @@
+{
+  "name": "my-pakage",
+  "version": "1.0.0",
+  "description": "my demo pakage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
