@@ -1,11 +1,15 @@
 {
-  "name": "@shariq-pro/pakage_test",
-  "version": "1.0.0",
-  "description": "my demo pakage",
+  "name": "pakage_test",
+  "version": "1.0.1",
+  "description": "my demo package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": "https://github.com/siddharta1337/my-package-repo.git",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+  },
+  "author": "carlos solis",
   "license": "ISC"
-}
+  }
