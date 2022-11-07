@@ -1,12 +1,12 @@
 {
-  "name": "pakage_test",
-  "version": "1.0.1",
+  "name": "@shariq-pro/pakage_test",
+  "version": "1.0.2",
   "description": "my demo package",
   "main": "index.js",
   "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/siddharta1337/pakage_test.git",
+  "repository": "https://github.com/shariq-pro/pakage_test.git",
   "publishConfig": {
   "registry": "https://npm.pkg.github.com"
   },
