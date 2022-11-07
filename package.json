@@ -6,10 +6,10 @@
   "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/siddharta1337/my-package-repo.git",
+  "repository": "https://github.com/siddharta1337/pakage_test.git",
   "publishConfig": {
   "registry": "https://npm.pkg.github.com"
   },
-  "author": "carlos solis",
+  "author": "shariq",
   "license": "ISC"
   }
