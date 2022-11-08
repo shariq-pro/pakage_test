@@ -1,0 +1,111 @@
+body{
+    font-family: Reckless Neue,serif;
+}
+
+.wallet_close_icon {
+    position: absolute;
+    right: 0;
+    padding: 0px 1rem 0 0;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #6c757d26;
+    padding: 6px 11px;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+.wallet_heading_container{
+margin: 0px;
+padding:15px 0px 20px 13px;
+}
+.wallet_heading{
+    font-size: 20px;
+    line-height: 24px;
+    color: #25292e;
+    font-weight: 700;
+    
+
+}
+.wallet_popular{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 0px 7px 13px;
+    font-family: system-ui;
+    color: #6c757d;
+}
+
+.modal-lg, .modal-xl {
+    max-height: 507px !important;
+    width: 722px !important;
+}
+.border_grey{
+    border-right: 1px solid #6c757d29;
+}
+.nav-item {
+    font-size: 14px;
+    font-weight: 700;
+   
+   
+}
+.nav-item > .nav-link{
+    color: black !important;
+
+}
+.nav-link.active{
+    background-color:#ffbd02 !important;
+}
+.nav-item:hover {
+    background-color:#6c757d26 !important;
+
+}
+.modal-content{
+    max-height: 504px;
+    height: 504px;
+    border-radius: 28px !important;
+}
+.margin_right{
+    margin-right :5px;
+}
+.modal_inner_container{
+    padding: 2rem 3rem !important;
+}
+.modal_inner_main_heading{
+    text-align: center;
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+    padding: 10px 0px 44px 0px;
+}
+.modal_inner_sub_heading{
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+.modal_inner_sub_text{
+    font-size: 13px;
+    color: black;
+}
+.modal_inner_img{
+    width: 48px;
+}
+.metamask_modal_img{
+    width: 80px;
+}
+
+.metamask_modal_text{
+    text-align:center;
+}
+.metamask_modal_inner_text{
+    font-size: 23px;
+    font-weight: 600;
+}
+.metamask_modal_inner_subtext{
+    font-size: 19px;
+}
+.metamask_modal_inner_button{
+    color: #ffbd02 !important;
+    border: 0px;
+    font-size: 13px;
+    padding: 6px 13px;
+    border-radius: 8px;
+    font-weight: 700;
+}

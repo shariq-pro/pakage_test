@@ -1,0 +1,33 @@
+.disconnect_modal_img{
+    font-size: 44px;
+    border-radius: 100px;
+    padding: 7px;
+    background-color: rgb(255, 226, 121);
+}
+.disconnect_modal_address{
+    font-size: 20px;
+    font-weight: 800;
+}
+#innerDisconnect>.modal-content {
+    max-height: 280px !important;
+    height: 504px !important;
+    border-radius: 28px !important;
+    background-color: #f4f4f4 !important;
+}
+.disconnect_btn_style{
+    width: 150px;
+    height: 47px;
+    border: 0;
+    background-color: white;
+    border-radius: 53px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.disconnect_btn_style:hover{
+
+    border: 3px solid #f7630c;
+    background-color: white;
+    border-radius: 53px;
+    font-size: 19px;
+    font-weight: 700;
+}
