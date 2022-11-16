@@ -125,3 +125,44 @@ Now your package is successfully created in github packages.
 
 
 3. That’s it !!!
+4. App.js folder
+5. import logo from './logo.svg';
+import './App.css';
+import Wallet from './lib/components/Wallet';
+import { useState } from 'react';
+import Walletmodal from './lib/components/Walletmodal';
+
+
+function App() {
+  const[get_wallet_address,set_wallet_address]=useState(false)
+  const[get_modal_show,set_modal_show]=useState(false)
+  function getMyWallet(props){
+    console.log('getMyWallet',props)
+
+    if(props){
+      set_wallet_address(props)
+      set_modal_show(false)
+    }
+  }
+  
+  function Mint_data(){
+    if(get_wallet_address !=false){
+      alert('Minting ....')
+
+    }
+    else{
+      set_modal_show(true)
+
+    }
+  }
+  return (
+    <div className="App">
+      {get_modal_show?<Walletmodal show={get_modal_show} onHide={()=>{set_modal_show(false)}} func={getMyWallet}/>  :''}
+      <Wallet btn_name="Connect Wallet" btn_color="black" btn_text_color='white' func_wallet={getMyWallet} show_modal={get_modal_show} />
+      <button onClick={()=>{Mint_data()}}>Mint</button>
+    </div>
+  );
+}
+
+export default App;
+
